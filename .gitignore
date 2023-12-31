@@ -2,3 +2,4 @@
 /src
 /*.pkg.tar*
 sfs-select-*-full.7z
+/sfs-select*.deb
