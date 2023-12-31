@@ -6,8 +6,8 @@ pkgdesc="A small tool to manage Steam Family Sharing"
 arch=('any')
 url="https://www.unix-ag.uni-kl.de/~t_schmid/sfs-select/"
 license=('GPL3')
-depends=('steam' 'python>=3.0' 'python-pyqt5' 'python-psutil')
-makedepends=('python-setuptools')
+depends=('steam' 'python3>=3.0' 'python3-pyqt5' 'python3-psutil')
+makedepends=('python3-setuptools')
 options=(!emptydirs)
 source=("https://www.unix-ag.uni-kl.de/~t_schmid/sfs-select/sfs-select-$pkgver-full.7z"
         "setup.py"
